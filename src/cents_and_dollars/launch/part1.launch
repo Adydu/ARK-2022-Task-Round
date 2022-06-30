@@ -1,0 +1,7 @@
+<launch>
+    <node name="centsdollars1" pkg="cents_and_dollars" type="part1_checker.py" output="screen">
+    <param name="digits" value="6" /> 
+    </node>
+    <node name="player1" pkg="cents_and_dollars" type="part1_player.py" output="screen">
+    </node>
+</launch>
